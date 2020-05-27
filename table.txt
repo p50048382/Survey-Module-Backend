@@ -1,0 +1,281 @@
+https://rrfioridev.ril.com/sap/opu/odata/sap/zsurvey_srv/PendSurveyHdrSet?$expand=SurveyHdrToItemNav/SurveyItemToLangNav
+
+{
+   "@base": "http://rrfioridev.ril.com/sap/opu/odata/sap/zsurvey_srv/",
+   "id": "http://rrfioridev.ril.com/sap/opu/odata/sap/zsurvey_srv/PendSurveyHdrSet",
+   "title": "PendSurveyHdrSet",
+   "updated": "2020-05-18T08:48:42Z",
+   "author": "...",
+   "link": {
+      "@href": "PendSurveyHdrSet",
+      "@rel": "self",
+      "@title": "PendSurveyHdrSet"
+   },
+   "entry": {
+      "id": "http://rrfioridev.ril.com/sap/opu/odata/sap/zsurvey_srv/PendSurveyHdrSet('P50001607')",
+      "title": "PendSurveyHdrSet('P50001607')",
+      "updated": "2020-05-18T08:48:42Z",
+      "category": {
+         "@term": "zsurvey_srv.PendSurveyHdr",
+         "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": [
+         {
+            "@href": "PendSurveyHdrSet('P50001607')",
+            "@rel": "self",
+            "@title": "PendSurveyHdr"
+         },
+         {
+            "@href": "PendSurveyHdrSet('P50001607')/SurveyHdrToItemNav",
+            "@rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/SurveyHdrToItemNav",
+            "@title": "SurveyHdrToItemNav",
+            "inline": {
+               "feed": {
+                  "@base": "http://rrfioridev.ril.com/sap/opu/odata/sap/zsurvey_srv/",
+                  "id": "http://rrfioridev.ril.com/sap/opu/odata/sap/zsurvey_srv/PendSurveyHdrSet('P50001607')/SurveyHdrToItemNav",
+                  "title": "PendSurveyItemSet",
+                  "updated": "2020-05-18T08:48:42Z",
+                  "author": {
+                     "name": null
+                  },
+                  "link": {
+                     "@href": "PendSurveyHdrSet('P50001607')/SurveyHdrToItemNav",
+                     "@rel": "self",
+                     "@title": "PendSurveyItemSet"
+                  },
+                  "entry": {
+                     "id": "http://rrfioridev.ril.com/sap/opu/odata/sap/zsurvey_srv/PendSurveyItemSet(Uname='P50001607',SurveyId='0000000007')",
+                     "title": "PendSurveyItemSet(Uname='P50001607',SurveyId='0000000007')",
+                     "updated": "2020-05-18T08:48:42Z",
+                     "category": {
+                        "@term": "zsurvey_srv.PendSurveyItem",
+                        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+                     },
+                     "link": [
+                        {
+                           "@href": "PendSurveyItemSet(Uname='P50001607',SurveyId='0000000007')",
+                           "@rel": "self",
+                           "@title": "PendSurveyItem"
+                        },
+                        {
+                           "@href": "PendSurveyItemSet(Uname='P50001607',SurveyId='0000000007')/SurveyItemToLangNav",
+                           "@rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/SurveyItemToLangNav",
+                           "@title": "SurveyItemToLangNav",
+                           "inline": {
+                              "feed": {
+                                 "@base": "http://rrfioridev.ril.com/sap/opu/odata/sap/zsurvey_srv/",
+                                 "id": "http://rrfioridev.ril.com/sap/opu/odata/sap/zsurvey_srv/PendSurveyItemSet(Uname='P50001607',SurveyId='0000000007')/SurveyItemToLangNav",
+                                 "title": "PendSurveyLangSet",
+                                 "updated": "2020-05-18T08:48:42Z",
+                                 "author": {
+                                    "name": null
+                                 },
+                                 "link": {
+                                    "@href": "PendSurveyItemSet(Uname='P50001607',SurveyId='0000000007')/SurveyItemToLangNav",
+                                    "@rel": "self",
+                                    "@title": "PendSurveyLangSet"
+                                 },
+                                 "entry": [
+                                    {
+                                       "id": "http://rrfioridev.ril.com/sap/opu/odata/sap/zsurvey_srv/PendSurveyLangSet(Uname='P50001607',SurveyId='0000000007')",
+                                       "title": "PendSurveyLangSet(Uname='P50001607',SurveyId='0000000007')",
+                                       "updated": "2020-05-18T08:48:42Z",
+                                       "category": {
+                                          "@term": "zsurvey_srv.PendSurveyLang",
+                                          "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+                                       },
+                                       "link": {
+                                          "@href": "PendSurveyLangSet(Uname='P50001607',SurveyId='0000000007')",
+                                          "@rel": "self",
+                                          "@title": "PendSurveyLang"
+                                       },
+                                       "content": {
+                                          "properties": {
+                                             "Uname": "P50001607",
+                                             "SurveyId": "0000000007",
+                                             "TemlateId": "0000000000",
+                                             "LangKey": "ENG",
+                                             "Language": "English"
+                                          }
+                                       }
+                                    },
+                                    {
+                                       "id": "http://rrfioridev.ril.com/sap/opu/odata/sap/zsurvey_srv/PendSurveyLangSet(Uname='P50001607',SurveyId='0000000007')",
+                                       "title": "PendSurveyLangSet(Uname='P50001607',SurveyId='0000000007')",
+                                       "updated": "2020-05-18T08:48:42Z",
+                                       "category": {
+                                          "@term": "zsurvey_srv.PendSurveyLang",
+                                          "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+                                       },
+                                       "link": {
+                                          "@href": "PendSurveyLangSet(Uname='P50001607',SurveyId='0000000007')",
+                                          "@rel": "self",
+                                          "@title": "PendSurveyLang"
+                                       },
+                                       "content": {
+                                          "properties": {
+                                             "Uname": "P50001607",
+                                             "SurveyId": "0000000007",
+                                             "TemlateId": "0000000000",
+                                             "LangKey": "HIN",
+                                             "Language": "Hindi"
+                                          }
+                                       }
+                                    }
+                                 ]
+                              }
+                           }
+                        }
+                     ],
+                     "content": {
+                        "properties": {
+                           "Uname": "P50001607",
+                           "SurveyId": "0000000007",
+                           "SurveyName": "MY VOICE ASSOCIATE - 2020",
+                           "SurveyDesc": "My Voice Associate Survey",
+                           "InputFlag": null,
+                           "CompleteFlag": null,
+                           "StartDate": "2020-05-05T00:00:00",
+                           "EndDate": "2020-08-06T00:00:00",
+                           "SerialNum": "01"
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      ],
+      "content": {
+         "properties": {
+            "Uname": "P50001607"
+         }
+      }
+   }
+}
+
+
+
+
+
+
+XML
+
+
+
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xml:base="http://rrfioridev.ril.com/sap/opu/odata/sap/zsurvey_srv/">
+<id>
+http://rrfioridev.ril.com/sap/opu/odata/sap/zsurvey_srv/PendSurveyHdrSet
+</id>
+<title type="text">PendSurveyHdrSet</title>
+<updated>2020-05-18T08:48:42Z</updated>
+<author>...</author>
+<link href="PendSurveyHdrSet" rel="self" title="PendSurveyHdrSet"/>
+<entry>
+<id>
+http://rrfioridev.ril.com/sap/opu/odata/sap/zsurvey_srv/PendSurveyHdrSet('P50001607')
+</id>
+<title type="text">PendSurveyHdrSet('P50001607')</title>
+<updated>2020-05-18T08:48:42Z</updated>
+<category term="zsurvey_srv.PendSurveyHdr" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+<link href="PendSurveyHdrSet('P50001607')" rel="self" title="PendSurveyHdr"/>
+<link href="PendSurveyHdrSet('P50001607')/SurveyHdrToItemNav" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/SurveyHdrToItemNav" type="application/atom+xml;type=feed" title="SurveyHdrToItemNav">
+<m:inline>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xml:base="http://rrfioridev.ril.com/sap/opu/odata/sap/zsurvey_srv/">
+<id>
+http://rrfioridev.ril.com/sap/opu/odata/sap/zsurvey_srv/PendSurveyHdrSet('P50001607')/SurveyHdrToItemNav
+</id>
+<title type="text">PendSurveyItemSet</title>
+<updated>2020-05-18T08:48:42Z</updated>
+<author>
+<name/>
+</author>
+<link href="PendSurveyHdrSet('P50001607')/SurveyHdrToItemNav" rel="self" title="PendSurveyItemSet"/>
+<entry>
+<id>
+http://rrfioridev.ril.com/sap/opu/odata/sap/zsurvey_srv/PendSurveyItemSet(Uname='P50001607',SurveyId='0000000007')
+</id>
+<title type="text">
+PendSurveyItemSet(Uname='P50001607',SurveyId='0000000007')
+</title>
+<updated>2020-05-18T08:48:42Z</updated>
+<category term="zsurvey_srv.PendSurveyItem" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+<link href="PendSurveyItemSet(Uname='P50001607',SurveyId='0000000007')" rel="self" title="PendSurveyItem"/>
+<link href="PendSurveyItemSet(Uname='P50001607',SurveyId='0000000007')/SurveyItemToLangNav" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/SurveyItemToLangNav" type="application/atom+xml;type=feed" title="SurveyItemToLangNav">
+<m:inline>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xml:base="http://rrfioridev.ril.com/sap/opu/odata/sap/zsurvey_srv/">
+<id>
+http://rrfioridev.ril.com/sap/opu/odata/sap/zsurvey_srv/PendSurveyItemSet(Uname='P50001607',SurveyId='0000000007')/SurveyItemToLangNav
+</id>
+<title type="text">PendSurveyLangSet</title>
+<updated>2020-05-18T08:48:42Z</updated>
+<author>
+<name/>
+</author>
+<link href="PendSurveyItemSet(Uname='P50001607',SurveyId='0000000007')/SurveyItemToLangNav" rel="self" title="PendSurveyLangSet"/>
+<entry>
+<id>
+http://rrfioridev.ril.com/sap/opu/odata/sap/zsurvey_srv/PendSurveyLangSet(Uname='P50001607',SurveyId='0000000007')
+</id>
+<title type="text">
+PendSurveyLangSet(Uname='P50001607',SurveyId='0000000007')
+</title>
+<updated>2020-05-18T08:48:42Z</updated>
+<category term="zsurvey_srv.PendSurveyLang" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+<link href="PendSurveyLangSet(Uname='P50001607',SurveyId='0000000007')" rel="self" title="PendSurveyLang"/>
+<content type="application/xml">
+<m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+<d:Uname>P50001607</d:Uname>
+<d:SurveyId>0000000007</d:SurveyId>
+<d:TemlateId>0000000000</d:TemlateId>
+<d:LangKey>ENG</d:LangKey>
+<d:Language>English</d:Language>
+</m:properties>
+</content>
+</entry>
+<entry>
+<id>
+http://rrfioridev.ril.com/sap/opu/odata/sap/zsurvey_srv/PendSurveyLangSet(Uname='P50001607',SurveyId='0000000007')
+</id>
+<title type="text">
+PendSurveyLangSet(Uname='P50001607',SurveyId='0000000007')
+</title>
+<updated>2020-05-18T08:48:42Z</updated>
+<category term="zsurvey_srv.PendSurveyLang" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+<link href="PendSurveyLangSet(Uname='P50001607',SurveyId='0000000007')" rel="self" title="PendSurveyLang"/>
+<content type="application/xml">
+<m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+<d:Uname>P50001607</d:Uname>
+<d:SurveyId>0000000007</d:SurveyId>
+<d:TemlateId>0000000000</d:TemlateId>
+<d:LangKey>HIN</d:LangKey>
+<d:Language>Hindi</d:Language>
+</m:properties>
+</content>
+</entry>
+</feed>
+</m:inline>
+</link>
+<content type="application/xml">
+<m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+<d:Uname>P50001607</d:Uname>
+<d:SurveyId>0000000007</d:SurveyId>
+<d:SurveyName>MY VOICE ASSOCIATE - 2020</d:SurveyName>
+<d:SurveyDesc>My Voice Associate Survey</d:SurveyDesc>
+<d:InputFlag/>
+<d:CompleteFlag/>
+<d:StartDate>2020-05-05T00:00:00</d:StartDate>
+<d:EndDate>2020-08-06T00:00:00</d:EndDate>
+<d:SerialNum>01</d:SerialNum>
+</m:properties>
+</content>
+</entry>
+</feed>
+</m:inline>
+</link>
+<content type="application/xml">
+<m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+<d:Uname>P50001607</d:Uname>
+</m:properties>
+</content>
+</entry>
+</feed>
